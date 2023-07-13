@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Space Mono', monospace;
+}
+
+
+header>nav>h1{
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+
+    /* margin-padding */
+    padding-top: 40px;
+    padding-left: 77px;
+}
+
+.image-container>img{
+    width: 540px;
+    height: 480px;
+    
+}
+
+.image-container{
+    margin-top: 100px;
+    margin-right: 180px;
+    
+}
+
+main>.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.text-container>h1{
+    color: var(--gray-1, #333);
+    font-family: Space Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
+
+.text-container>p{
+    color: var(--gray-2, #4F4F4F);
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    margin: 30px 0;
+}
+
+.text-container>button{
+    background: var(--gray-1, #333);
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 1px;
+    border: 0;
+}
